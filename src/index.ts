@@ -229,6 +229,7 @@ export class SmartRoosterApi {
     try {
       const { data } = await axios.put(
         `${this.config.url}/service/sale/update-reservated/${body.specimen_id}`,
+        {},
         {
           headers: {
             'PRIVATE-KEY': this.config.private_key,

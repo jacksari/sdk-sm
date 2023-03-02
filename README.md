@@ -119,7 +119,6 @@ export class AppController {
   reservedSpecimen() {
     return this.sm.reservedSpecimen({
       specimen_id: 'b0783efd-b7b5-11ed-8ba5-166fd1880ae7',
-      status_id: 3,
     });
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "smart-rooster",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "license": "MIT",
   "author": "Jack Sari",
   "main": "dist/index.js",
